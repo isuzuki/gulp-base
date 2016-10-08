@@ -1,7 +1,7 @@
 module.exports = {
-  src: {
-    scripts: 'app/scripts',
-    styles: 'app/styles'
+  globs: {
+    scripts: 'app/scripts/**/*.js',
+    styles: 'app/styles/**/*.{scss,css}'
   },
   dest: {
     scripts: 'dist/scripts',
